@@ -201,62 +201,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/etc/thermal-engine-dubai.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-dubai.conf \
     vendor/motorola/dubai/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/dubai/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
-    vendor/motorola/dubai/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/dubai/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_haptic.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_osc_rtp_12K_10s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_osc_rtp_12K_10s.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Argo_Navis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Argo_Navis.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Attentive.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Attentive.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Awake.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Awake.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Bird_Loop.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Bird_Loop.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Brilliant_Times.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Brilliant_Times.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Chimey_Phone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Chimey_Phone.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_City_Lights.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_City_Lights.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Complex.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Complex.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Crazy_Dream.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Crazy_Dream.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Curve_Ball_Blend.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Curve_Ball_Blend.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Digital_Phone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Digital_Phone.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Electrovision.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Electrovision.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Ether_Shake.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Ether_Shake.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Fateful_Words.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Fateful_Words.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Firefly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Firefly.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Flutey_Phone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Flutey_Phone.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Future_Funk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Future_Funk.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Future_Hi_Tech.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Future_Hi_Tech.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Girtab.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Girtab.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Hello.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Hello.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Hexagon.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Hexagon.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Hydra.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Hydra.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Insert_Coin.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Insert_Coin.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Jumping_Dots.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Jumping_Dots.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Keys.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Keys.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Loopy.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Loopy.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Loopy_Lounge.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Loopy_Lounge.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Modular.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Modular.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Momentum.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Momentum.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Morning.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Morning.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Moto.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Moto.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Moto_Original.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Moto_Original.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Moto_Retro.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Moto_Retro.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Natural.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Natural.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_New_Player.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_New_Player.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Now_or_Never.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Now_or_Never.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Onward.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Onward.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Organ_Dub.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Organ_Dub.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Overclocked.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Overclocked.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Pegasus.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Pegasus.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Play.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Play.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Pyxis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Pyxis.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Regrade.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Regrade.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Scarabaeus.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Scarabaeus.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Sceptrum.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Sceptrum.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Simple.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Simple.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Solarium.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Solarium.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Sparse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Sparse.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Terrabytes.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Terrabytes.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Verizon_Airwaves.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Verizon_Airwaves.bin \
-    vendor/motorola/dubai/proprietary/vendor/firmware/aw8622x_rtp_Zero_Hour.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Zero_Hour.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/aw882xx_pid_1852_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_1852_acf.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/aw882xx_pid_2113_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_2113_acf.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
