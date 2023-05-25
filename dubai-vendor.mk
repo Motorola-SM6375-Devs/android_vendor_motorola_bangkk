@@ -13,14 +13,54 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
     vendor/motorola/dubai/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
     vendor/motorola/dubai/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
-    vendor/motorola/dubai/proprietary/system/etc/init/cameraserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/cameraserver.rc \
-    vendor/motorola/dubai/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/dubai/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
-    vendor/motorola/dubai/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
-    vendor/motorola/dubai/proprietary/system_ext/bin/motsettings:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/motsettings \
+    vendor/motorola/dubai/proprietary/product/lib64/libAncHumanSegFigureFusion-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libAncHumanSegFigureFusion-jni.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libFNVfbEngineHAL_legacy.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libFNVfbEngineHAL_legacy.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libNvBeautyEffect.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libNvBeautyEffect.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libSNPE.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSNPE.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libSuperSensorCPU_v05052021.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorCPU_v05052021.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libSuperSensorProcessorCWrapper_v2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorProcessorCWrapper_v2.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libSuperSensorProcessor_v05052021.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorProcessor_v05052021.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libSuperSensor_v05052021.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensor_v05052021.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libarcsoft_frc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_frc.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_hdr_detection.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libarcsoft_hdr_scbokeh_image.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_hdr_scbokeh_image.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libarcsoft_multiframe_bokeh_image.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_multiframe_bokeh_image.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libarcsoft_scbokeh_Generic.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_scbokeh_Generic.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libas-super-slow-motion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libas-super-slow-motion.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libbarhopper_v3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbarhopper_v3.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbg-postproc-jni.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++_shared.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcamerax_extension_jni.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libdoc-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdoc-util.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libdynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdynamic_depth.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libfn-beauty-vfb-legacy-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-legacy-base.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libfoundation.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfoundation.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libgg-dynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-dynamic_depth.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libgg-tensorflow-lite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-tensorflow-lite.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libgif.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgif.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libjpeg.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjpeg.so \
+    vendor/motorola/dubai/proprietary/product/lib64/liblenovo_panorama.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/liblenovo_panorama.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmcf-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-base.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmcf-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-jni.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmcf-qc-fd-offline_local.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-qc-fd-offline_local.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmcf-stand-alone-sm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-stand-alone-sm.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmeishe-nv-effects-thumbnails.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmeishe-nv-effects-thumbnails.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmcamera_faceproc2.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmorpho_cinema_graph.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_cinema_graph.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmorpho_panorama_gp3_core.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3_core.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_sensor_fusion.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmot-cinemagraph-engine.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-cinemagraph-engine.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmot-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-util.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libmpbase.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmpbase.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libqc-snpe.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-snpe.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libsmart_ppt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsmart_ppt.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite.so \
+    vendor/motorola/dubai/proprietary/product/lib64/libtensorflowlite_gpu_delegate.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite_gpu_delegate.so \
     vendor/motorola/dubai/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/dubai/proprietary/system_ext/lib/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libavenhancements.so \
-    vendor/motorola/dubai/proprietary/system_ext/lib64/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libavenhancements.so \
     vendor/motorola/dubai/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
@@ -218,6 +258,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/tianma_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_cfg_group.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/tianma_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_test_limits_255.csv \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b00 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b01 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b02 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b03 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b04 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b05 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b06 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b07 \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.mdt \
+    vendor/motorola/dubai/proprietary/vendor/firmware/wpss.qdb:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.qdb \
     vendor/motorola/dubai/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dubai_gc02m1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dubai_gc02m1b_otp.so \
     vendor/motorola/dubai/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so \
     vendor/motorola/dubai/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so \
@@ -622,13 +672,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 PRODUCT_PACKAGES += \
-    MotoSignatureApp \
     MotCamera3AI \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     MotCamera4 \
-    MotorolaSettingsProvider \
-    com.motorola.motosignature \
-    moto-core_services \
-    moto-settings \
     com.android.hotwordenrollment.common.util
