@@ -142,6 +142,13 @@
 				</variant>
 			</skus>
 
+			<!-- camera_feature parts describe the mapping of feature disabl_radio -->
+			<camera_feature export="ro.vendor.camera.disable_radio" default="true">
+				<variant name="false">
+					<string name="/proc/device-tree/chosen/mmi,camera_disable_radio">false</string>
+				</variant>
+			</camera_feature>
+
 		</mappings>
 	</device>
 
