@@ -1,2 +1,0 @@
-on boot
-    setprop ro.com.google.lens.oem_camera_package com.motorola.camera3

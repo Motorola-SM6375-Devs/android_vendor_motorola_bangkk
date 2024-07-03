@@ -24,13 +24,7 @@ import "sns_std_sensor.proto";
 enum mot_vsync_msgid {
   option (nanopb_enumopt).long_names = false;
 
-  // Events
   MOT_VSYNC_MSGID_MOT_VSYNC_EVENT = 772;
-
-  // Commands
-  MOT_VSYNC_MSGID_MOT_VSYNC_START_CAL = 801;
-  MOT_VSYNC_MSGID_MOT_VSYNC_STOP_CAL = 802;
-
 }
 
 enum mot_vsync_state {
@@ -48,8 +42,6 @@ message mot_vsync_event
 
   // Panel frequency detected by driver
   required uint32 det_freq_hz = 2 [default = 0];
-
-  optional float fine_freq_est_hz = 3 [default = 0];
 }
 
 // Stream events:
