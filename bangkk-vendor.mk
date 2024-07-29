@@ -195,7 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/firmware/aw87xxx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_acf.bin \
     vendor/motorola/bangkk/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
     vendor/motorola/bangkk/proprietary/vendor/firmware/csot_focal_test_limits.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_focal_test_limits.ini \
-    vendor/motorola/bangkk/proprietary/vendor/firmware/focaltech-csot-ft3681-26-0000-bangkk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-csot-ft3681-26-0000-bangkk.bin \
+    vendor/motorola/bangkk/proprietary/vendor/firmware/focaltech_ts_fw_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_csot.bin \
     vendor/motorola/bangkk/proprietary/vendor/firmware/goodix-tm-gt9916S-23062705-649a9b6c-bangkk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tm-gt9916S-23062705-649a9b6c-bangkk.bin \
     vendor/motorola/bangkk/proprietary/vendor/firmware/mot_aw86006.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_aw86006.prog \
     vendor/motorola/bangkk/proprietary/vendor/firmware/mot_dw9784.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9784.prog \
