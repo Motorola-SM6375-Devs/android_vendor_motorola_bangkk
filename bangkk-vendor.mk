@@ -9,8 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/bangkk/proprietary/vendor/bin/capsense_reset:$(TARGET_COPY_OUT_VENDOR)/bin/capsense_reset \
     vendor/motorola/bangkk/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
-    vendor/motorola/bangkk/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
-    vendor/motorola/bangkk/proprietary/vendor/bin/hw/motorola.hardware.camera.imgtuner@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.imgtuner@2.0-service \
     vendor/motorola/bangkk/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/bangkk/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/bangkk/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -38,8 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/etc/camera/vidhance.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance.lic \
     vendor/motorola/bangkk/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/bangkk/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
-    vendor/motorola/bangkk/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
-    vendor/motorola/bangkk/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner@2.0-service.rc \
     vendor/motorola/bangkk/proprietary/vendor/etc/libnfc-PN557.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN557.conf \
     vendor/motorola/bangkk/proprietary/vendor/etc/libnfc-SN220-UICC.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220-UICC.conf \
     vendor/motorola/bangkk/proprietary/vendor/etc/libnfc-SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220.conf \
@@ -335,6 +331,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib/libipebpsstriping170.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping170.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libjpege.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpege.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/liblowlight_ai_portrait.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowlight_ai_portrait.arcsoft.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bestats.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_lscv35.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lscv35.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdpc.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv.so \
@@ -465,7 +469,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_super_night_se_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_se_raw.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
-    vendor/motorola/bangkk/proprietary/vendor/lib64/libc2d_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d_helper.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
@@ -497,7 +500,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_pdpc.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmot_chi_desktop_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_chi_desktop_helper.so \
-    vendor/motorola/bangkk/proprietary/vendor/lib64/libmot_engine_settings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_engine_settings.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinedump.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
