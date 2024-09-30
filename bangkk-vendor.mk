@@ -8,8 +8,20 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/product/etc/permissions/privapp-permissions-com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.euicc.xml \
     vendor/motorola/bangkk/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/motorola/bangkk/proprietary/system_ext/lib/libarcsoft_calibverify_TriCamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarcsoft_calibverify_TriCamera.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib/libarcsoft_tricam_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarcsoft_tricam_calibration.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib/libarcsoft_tricam_verification.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarcsoft_tricam_verification.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib/motorola.hardware.camera.imgtuner@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/motorola.hardware.camera.imgtuner@2.0.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.seccam@1.0.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib64/libarcsoft_calibverify_TriCamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_calibverify_TriCamera.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib64/libarcsoft_tricam_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_tricam_calibration.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib64/libarcsoft_tricam_verification.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_tricam_verification.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib64/motorola.hardware.camera.imgtuner@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/motorola.hardware.camera.imgtuner@2.0.so \
+    vendor/motorola/bangkk/proprietary/system_ext/lib64/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.seccam@1.0.so \
     vendor/motorola/bangkk/proprietary/vendor/bin/capsense_reset:$(TARGET_COPY_OUT_VENDOR)/bin/capsense_reset \
     vendor/motorola/bangkk/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
+    vendor/motorola/bangkk/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
+    vendor/motorola/bangkk/proprietary/vendor/bin/hw/motorola.hardware.camera.imgtuner@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.imgtuner@2.0-service \
     vendor/motorola/bangkk/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/bangkk/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/bangkk/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -34,9 +46,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/etc/camera/anc_detect_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc_detect_model \
     vendor/motorola/bangkk/proprietary/vendor/etc/camera/anc_track_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc_track_model \
     vendor/motorola/bangkk/proprietary/vendor/etc/camera/dual_golden_wide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden_wide.bin \
+    vendor/motorola/bangkk/proprietary/vendor/etc/camera/mot_engine_config.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_engine_config.bin \
     vendor/motorola/bangkk/proprietary/vendor/etc/camera/vidhance.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance.lic \
     vendor/motorola/bangkk/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/bangkk/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
+    vendor/motorola/bangkk/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
+    vendor/motorola/bangkk/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner@2.0-service.rc \
     vendor/motorola/bangkk/proprietary/vendor/etc/libnfc-PN557.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN557.conf \
     vendor/motorola/bangkk/proprietary/vendor/etc/libnfc-SN220-UICC.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220-UICC.conf \
     vendor/motorola/bangkk/proprietary/vendor/etc/libnfc-SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220.conf \
@@ -225,6 +240,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.mot.node.c2d.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.mot.node.c2d.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.mot.node.dc_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.mot.node.dc_capture.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.mot.node.dc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.mot.node.dc_preview.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.mot.node.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.mot.node.hdr.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.mot.node.scene_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.mot.node.scene_detect.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
@@ -305,12 +322,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib/com.qualcomm.qti.mcx.usecase.extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.mcx.usecase.extension.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/hw/motorola.hardware.camera.imgtuner@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.imgtuner@2.0-impl.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libBSTSWAD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBSTSWAD.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaidenoiser.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libarcsoft_chi_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_chi_utils.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr_detection.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libarcsoft_high_dynamic_range_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range_v2.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_low_light_shot.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlengine.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlenginev2.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libc2d_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d_helper.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerapostproc.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
@@ -327,6 +350,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchilog.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libipebpsstriping170.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping170.so \
@@ -340,18 +364,30 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdpc.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmot_chi_desktop_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_chi_desktop_helper.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libmot_engine_settings.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_engine_settings.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinedump.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopestriping.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_wrapper.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_fastRPC_util.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/libundistort_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libundistort_impl.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideooptfeature.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.desktop@1.0.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.desktop@2.0.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/motorola.hardware.camera.imgtuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.imgtuner@1.0.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib/motorola.hardware.camera.imgtuner@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.imgtuner@2.0.so \
     vendor/motorola/bangkk/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_bangkk_s5k4h7_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_bangkk_s5k4h7_otp.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128f_s5kgn9_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128f_s5kgn9_eeprom.so \
@@ -379,6 +415,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.mot.node.c2d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.c2d.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.mot.node.dc_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.dc_capture.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.mot.node.dc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.dc_preview.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.mot.node.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.hdr.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.mot.node.scene_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.scene_detect.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
@@ -460,16 +498,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.mcx.usecase.extension.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/hw/motorola.hardware.camera.imgtuner@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/motorola.hardware.camera.imgtuner@2.0-impl.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libBSTSWAD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTSWAD.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_chi_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_chi_utils.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_detection.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_high_dynamic_range_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range_v2.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_portrait_super_night_se_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_super_night_se_raw.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libarcsoft_super_night_se_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_se_raw.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/libc2d_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d_helper.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
@@ -501,6 +544,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_pdpc.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmot_chi_desktop_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_chi_desktop_helper.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/libmot_engine_settings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_engine_settings.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinedump.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
@@ -518,6 +562,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bangkk/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@1.0.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@2.0.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/motorola.hardware.camera.imgtuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.imgtuner@1.0.so \
+    vendor/motorola/bangkk/proprietary/vendor/lib64/motorola.hardware.camera.imgtuner@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.imgtuner@2.0.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/sensors.moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.moto.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/motorola/bangkk/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
